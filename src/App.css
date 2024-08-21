@@ -1,0 +1,41 @@
+*{
+  margin: 0;padding: 0;
+}
+body{
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+
+}
+/* Custom scrollbar styling */
+::-webkit-scrollbar {
+  width: 7px; /* Width of the scrollbar */
+}
+
+
+
+::-webkit-scrollbar-thumb {
+  background: #bebcbc; /* Color of the scrollbar thumb */
+  border-radius: 8px; /* Rounded corners of the scrollbar thumb */
+  display: none;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #bcb8b8; /* Color of the scrollbar thumb on hover */
+  display: inline;
+}
+
+/* Custom shadow style for full sides */
+.shadow-all-sides {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+/* styles.css */
+.glass-effect {
+  /* background: rgba(255, 255, 255, 0.1);  */
+  backdrop-filter: blur(10px); /* Glassy blur effect */
+  /* border: 1px solid rgba(255, 255, 255, 0.2); */
+  transition: background 0.3s, border 0.3s; /* Smooth transition */
+}
+
+.glass-effect:hover {
+  background: rgba(255, 255, 255, 0.2);
+  border-color: rgba(255, 255, 255, 0.4); 
+}
