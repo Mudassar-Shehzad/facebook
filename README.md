@@ -37,7 +37,7 @@ Follow these steps to clone and run the project on your local machine:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/Mudassar-Shehzad/Facebook-Connect.git
+   git clone https://github.com/Mudassar-Shehzad/facebook.git
 1. **Navigate to folder**:
    ```bash
    cd facebook
